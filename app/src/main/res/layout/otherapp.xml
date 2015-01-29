@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_new">
+
+    <include layout="@layout/basexml" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="180.0dip"
+        android:layout_marginTop="50.0dip">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@id/btnOnetouch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="top"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="0.4"
+                    android:background="@drawable/icon_onetouch"
+                    android:clickable="false" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_weight="0.4"
+                    android:clickable="false"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="-2.0"
+                    android:shadowDy="-2.0"
+                    android:shadowRadius="1.0"
+                    android:text="One Touch"
+                    android:textColor="#ffffffff"
+                    android:textSize="22.0sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <com.startapp.android.publish.banner.Banner
+                android:id="@id/startAppBanner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@id/btntictactoe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="top"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="0.4"
+                    android:background="@drawable/tictactoe"
+                    android:clickable="false" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_weight="0.4"
+                    android:clickable="false"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="-2.0"
+                    android:shadowDy="-2.0"
+                    android:shadowRadius="1.0"
+                    android:text="Space Tic Tac Toe-FREE"
+                    android:textColor="#ffffffff"
+                    android:textSize="22.0sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <com.startapp.android.publish.banner.Banner
+                android:id="@id/startAppBanner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@id/btnukvat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="0.4"
+                    android:background="@drawable/ukvat"
+                    android:clickable="false" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_weight="0.4"
+                    android:clickable="false"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="-2.0"
+                    android:shadowDy="-2.0"
+                    android:shadowRadius="1.0"
+                    android:text="UK VAT Caclulator-FREE"
+                    android:textColor="#ffffffff"
+                    android:textSize="22.0sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <!--             <com.google.ads.AdView android:id="@id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" ads:adSize="BANNER" ads:adUnitId="a1519b74cb47953" ads:loadAdOnCreate="true" /> -->
+            <LinearLayout
+                android:id="@id/btnCutter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="0.4"
+                    android:background="@drawable/icon_cuttter"
+                    android:clickable="false" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_weight="0.4"
+                    android:clickable="false"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="-2.0"
+                    android:shadowDy="-2.0"
+                    android:shadowRadius="1.0"
+                    android:text="Ringtone Maker FREE"
+                    android:textColor="#ffffffff"
+                    android:textSize="22.0sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <!--             <com.google.ads.AdView android:id="@id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" ads:adSize="BANNER" ads:adUnitId="a1519b74cb47953" ads:loadAdOnCreate="true" /> -->
+            <LinearLayout
+                android:id="@id/btnShiva"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="0.4"
+                    android:background="@drawable/icon_shiva"
+                    android:clickable="false" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_weight="0.4"
+                    android:clickable="false"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="-2.0"
+                    android:shadowDy="-2.0"
+                    android:shadowRadius="1.0"
+                    android:text="Shiva Live Wallpaper"
+                    android:textColor="#ffffffff"
+                    android:textSize="22.0sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <!--             <com.google.ads.AdView android:id="@id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" ads:adSize="BANNER" ads:adUnitId="a1519b74cb47953" ads:loadAdOnCreate="true" /> -->
+            <LinearLayout
+                android:id="@id/btnchristmaswall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="0.4"
+                    android:background="@drawable/icon_cwall"
+                    android:clickable="false" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_weight="0.4"
+                    android:clickable="false"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="-2.0"
+                    android:shadowDy="-2.0"
+                    android:shadowRadius="1.0"
+                    android:text="Christmas HD Wallpapers"
+                    android:textColor="#ffffffff"
+                    android:textSize="22.0sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <!--             <com.google.ads.AdView android:id="@id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" ads:adSize="BANNER" ads:adUnitId="a1519b74cb47953" ads:loadAdOnCreate="true" /> -->
+            <LinearLayout
+                android:id="@id/btnchristmaswidget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="0.4"
+                    android:background="@drawable/icon_cwidget"
+                    android:clickable="false" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_weight="0.4"
+                    android:clickable="false"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="-2.0"
+                    android:shadowDy="-2.0"
+                    android:shadowRadius="1.0"
+                    android:text="Christmas battery widget"
+                    android:textColor="#ffffffff"
+                    android:textSize="22.0sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <!--             <com.google.ads.AdView android:id="@id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" ads:adSize="BANNER" ads:adUnitId="a1519b74cb47953" ads:loadAdOnCreate="true" /> -->
+            <LinearLayout
+                android:id="@id/btnchristmasrigtone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="0.4"
+                    android:background="@drawable/icon_cringtone"
+                    android:clickable="false" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_weight="0.4"
+                    android:clickable="false"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="-2.0"
+                    android:shadowDy="-2.0"
+                    android:shadowRadius="1.0"
+                    android:text="Christmas Ringtone"
+                    android:textColor="#ffffffff"
+                    android:textSize="22.0sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <!--             <com.google.ads.AdView android:id="@id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" ads:adSize="BANNER" ads:adUnitId="a1519b74cb47953" ads:loadAdOnCreate="true" /> -->
+            <LinearLayout
+                android:id="@id/btnchristmascount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="0.4"
+                    android:background="@drawable/icon_countdown"
+                    android:clickable="false" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_weight="0.4"
+                    android:clickable="false"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="-2.0"
+                    android:shadowDy="-2.0"
+                    android:shadowRadius="1.0"
+                    android:text="Christmas Count Down"
+                    android:textColor="#ffffffff"
+                    android:textSize="22.0sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <!--             <com.google.ads.AdView android:id="@id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" ads:adSize="BANNER" ads:adUnitId="a1519b74cb47953" ads:loadAdOnCreate="true" /> -->
+            <LinearLayout
+                android:id="@id/btnitqa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="0.4"
+                    android:background="@drawable/icon_itqa"
+                    android:clickable="false" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_weight="0.4"
+                    android:clickable="false"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="-2.0"
+                    android:shadowDy="-2.0"
+                    android:shadowRadius="1.0"
+                    android:text="IT Interview Question Answer"
+                    android:textColor="#ffffffff"
+                    android:textSize="22.0sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <!--             <com.google.ads.AdView android:id="@id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" ads:adSize="BANNER" ads:adUnitId="a1519b74cb47953" ads:loadAdOnCreate="true" /> -->
+            <LinearLayout
+                android:id="@id/btnbabaji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="0.4"
+                    android:background="@drawable/icon_babaji"
+                    android:clickable="false" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_weight="0.4"
+                    android:clickable="false"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="-2.0"
+                    android:shadowDy="-2.0"
+                    android:shadowRadius="1.0"
+                    android:text="Babaji Ka Thullu"
+                    android:textColor="#ffffffff"
+                    android:textSize="22.0sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

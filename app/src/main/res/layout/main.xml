@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@null">
+
+    <Button
+        android:id="@id/btn_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68.0dip"
+        android:background="@drawable/btn_fb" />
+
+    <Button
+        android:id="@id/btn_youtube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_facebook"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10.0dip"
+        android:background="@drawable/btn_yt" />
+
+    <Button
+        android:id="@id/btn_tiwitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_whatsapp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10.0dip"
+        android:background="@drawable/btn_twit" />
+
+    <Button
+        android:id="@id/btn_whatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/btn_youtube"
+        android:layout_below="@id/btn_youtube"
+        android:layout_marginTop="10.0dip"
+        android:background="@drawable/btn_what" />
+
+    <Button
+        android:id="@id/btn_skype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_tiwitter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10.0dip"
+        android:background="@drawable/btn_skype" />
+
+    <TextView
+        android:id="@id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22.0dip"
+        android:text="Download"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_hd_widescreen_background">
+
+    <ImageView
+        android:id="@id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16.0dip"
+        android:src="@drawable/multidots_1" />
+
+    <TextView
+        android:id="@id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/imageView1"
+        android:layout_alignLeft="@id/imageView1"
+        android:paddingLeft="15sp"
+        android:text="Powered By:"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:id="@id/btn_market"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginTop="53.0dip"
+        android:background="@drawable/facebook"
+        android:onClick="myClickMethod" />
+
+    <TextView
+        android:id="@id/txtdownload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/btn_market"
+        android:layout_toRightOf="@id/btn_market"
+        android:text="Click to Download..."
+        android:textColor="#ffffffff" />
+
+</RelativeLayout>

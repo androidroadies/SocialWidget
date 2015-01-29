@@ -1,11 +1,40 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".ActivityHome">
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e1e1e1">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
 
-</RelativeLayout>
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@android:id/tabs" />
+    </RelativeLayout>
+
+</TabHost> <!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" --><!-- android:layout_width="fill_parent" --><!-- android:layout_height="fill_parent" > -->
+
+
+    <!-- <ImageView --><!-- android:id="@+id/ic_share" --><!-- android:layout_width="wrap_content" --><!-- android:layout_height="wrap_content" --><!-- android:layout_alignParentBottom="true" --><!-- android:contentDescription="@string/app_name" --><!-- android:src="@drawable/location" /> -->
+
+
+    <!-- <ImageView --><!-- android:id="@+id/ic_otherApps" --><!-- android:layout_width="wrap_content" --><!-- android:layout_height="wrap_content" --><!-- android:layout_alignParentBottom="true" --><!-- android:layout_toRightOf="@+id/ic_share" --><!-- android:contentDescription="@string/app_name" --><!-- android:src="@drawable/location" /> -->
+
+
+    <!-- <ImageView --><!-- android:id="@+id/ic_help" --><!-- android:layout_width="wrap_content" --><!-- android:layout_height="wrap_content" --><!-- android:layout_alignParentBottom="true" --><!-- android:layout_toRightOf="@+id/ic_otherApps" --><!-- android:contentDescription="@string/app_name" --><!-- android:src="@drawable/location" /> -->
+
+
+    <!-- <ImageView --><!-- android:id="@+id/ic_feedBack" --><!-- android:layout_width="wrap_content" --><!-- android:layout_height="wrap_content" --><!-- android:layout_alignParentBottom="true" --><!-- android:layout_toRightOf="@+id/ic_help" --><!-- android:contentDescription="@string/app_name" --><!-- android:src="@drawable/location" /> --><!-- <ImageView --><!-- android:id="@+id/ic_feedBack123" --><!-- android:layout_width="wrap_content" --><!-- android:layout_height="wrap_content" --><!-- android:layout_alignParentBottom="true" --><!-- android:layout_toRightOf="@+id/ic_feedBack" --><!-- android:contentDescription="@string/app_name" --><!-- android:src="@drawable/location" /> --><!-- <ImageView --><!-- android:id="@+id/ic_feedBack23" --><!-- android:layout_width="wrap_content" --><!-- android:layout_height="wrap_content" --><!-- android:layout_alignParentBottom="true" --><!-- android:layout_toRightOf="@+id/ic_feedBack123" --><!-- android:contentDescription="@string/app_name" --><!-- android:src="@drawable/location" /> -->
+
+
+    <!-- </RelativeLayout> -->

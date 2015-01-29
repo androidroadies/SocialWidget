@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_hd_widescreen_background">
+
+    <RelativeLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/multidots_1" />
+
+        <TextView
+            android:id="@+id/tv_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_logo"
+            android:text="Subject:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/etsubject"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_subject"
+            android:ems="10"
+            android:hint="Enter Subject"
+            android:singleLine="true">
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/tv_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etsubject"
+            android:text="Message:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/etemailBody"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_msg"
+            android:ems="10"
+            android:gravity="top"
+            android:hint="Enter mail body"
+            android:inputType="textMultiLine"
+            android:lines="5" />
+
+
+        <LinearLayout
+            android:id="@+id/llButtonContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etemailBody"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Send"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Clear"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <!--         <Button -->
+        <!--             android:id="@+id/send" -->
+        <!--             android:layout_width="wrap_content" -->
+        <!--             android:layout_height="wrap_content" -->
+        <!--             android:layout_below="@+id/etemailBody" -->
+        <!--             android:text="send" /> -->
+
+        <!--         <Button -->
+        <!--             android:id="@+id/clear" -->
+        <!--             android:layout_width="wrap_content" -->
+        <!--             android:layout_height="wrap_content" -->
+        <!--             android:text="CLEAR" /> -->
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ivShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/share" />
+
+</RelativeLayout>

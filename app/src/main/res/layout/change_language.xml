@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_new">
+
+    <LinearLayout
+        android:id="@id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@id/linerEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5.0dip"
+            android:weightSum="1.0">
+
+            <Button
+                android:id="@id/btnenglish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radio_active"
+                android:clickable="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:layout_weight="0.6"
+                android:clickable="false"
+                android:text="@string/lanenglish"
+                android:textColor="#ffffffff"
+                android:textSize="18.0dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/linerArbic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5.0dip"
+            android:weightSum="1.0">
+
+            <Button
+                android:id="@id/btnarbic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radio"
+                android:clickable="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:layout_weight="0.6"
+                android:clickable="false"
+                android:text="@string/langarbic"
+                android:textColor="#ffffffff"
+                android:textSize="18.0dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--     <com.google.ads.AdView android:id="@id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" ads:adSize="BANNER" ads:adUnitId="a1519b74cb47953" ads:loadAdOnCreate="true" /> -->
+    <!--     <com.google.ads.AdView android:id="@id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" ads:adSize="BANNER" ads:adUnitId="a1519b74cb47953" ads:loadAdOnCreate="true" /> -->
+</RelativeLayout>

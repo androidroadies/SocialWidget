@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sosiale Touch-GRATIS</string>
+    <string name="title_activity_main">Sosiale Touch-GRATIS</string>
+    <string name="email">info@bmacinfotech.com</string>
+    <string name="shar">Vriende ek gevind awesome widget vir my Android-selfoon. Neem n blik hier http://goo.gl/DQWrkD</string>
+    <string name="thems">temas</string>
+    <string name="other">ander programme</string>
+    <string name="about">oor ons</string>
+    <string name="feed">terugvoer</string>
+    <string name="dsmooth">3D Glad</string>
+    <string name="silver">Silver Coin</string>
+    <string name="sillky">Silky Round</string>
+    <string name="pure">pure Swart</string>
+    <string name="squer">Silky Square</string>
+    <string name="dround">3D Round</string>
+    <string name="hintsub">onderwerp</string>
+    <string name="hintmsg">boodskap</string>
+    <string name="more">Vir meer apps</string>
+    <string name="btnsend">STUUR</string>
+    <string name="langarbic">العربية</string>
+    <string name="lanenglish">English</string>
+    <string name="protxt">Try Pro version to customize your Social Touch widget</string>
+    <string name="hpwtocustom">Hoe jou persoonlike widget te skep:</string>
+    <string name="hpwtouse">How to use:</string>
+    <string name="hpwtocustom_inst">(1) Gaan na artikels omgewing.              n n (2) Klik op Custom Tab.              n n (3) op die top ry kies enige knoppie om jou widget aan te pas.              n n (4) Kies dan enige inligting uit die lys van die programme op jou selfoon geïnstalleer.              n n (5) Herhaal setp 3-4 vir al 6 ikone van jou widget.              n n (6) Klik gedoen ten knoppie.</string>
+    <string name="hpwtouse_inst">(1) Gaan na die huis skerm                n n (2) Lang druk op n leë gebied van die skerm.                n n (3) Kies Widget                n n (4) opgevolg deur die lys van geïnstalleerde widgets en kies Maatskaplike Touch.                n n (5) Klik op die sosiale Touch widget en jy sal dit by jou huis skerm.                n n (6) Klik op die Home-sleutel. Die nuwe widget moet op die huis skerm (of agtergrond) verskyn. Cheers ..</string>
+</resources>

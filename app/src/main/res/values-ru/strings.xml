@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Социальная сенсорный бесплатно</string>
+    <string name="title_activity_main">Социальная сенсорный бесплатно</string>
+    <string name="email">info@bmacinfotech.com</string>
+    <string name="shar">Друзья я нашел Высокий виджет для моего телефона Android. Взгляните сюда http://goo.gl/DQWrkD</string>
+    <string name="thems">Темы</string>
+    <string name="other">Другие приложения</string>
+    <string name="about">О нас</string>
+    <string name="feed">обратная связь</string>
+    <string name="dsmooth">3D Smooth</string>
+    <string name="silver">Silver Coin</string>
+    <string name="sillky">Silky Round</string>
+    <string name="pure">Pure Black</string>
+    <string name="squer">Silky Square</string>
+    <string name="dround">3D Round</string>
+    <string name="hintsub">тема</string>
+    <string name="hintmsg">сообщение</string>
+    <string name="more">Для более приложений</string>
+    <string name="btnsend">ОТПРАВИТЬ</string>
+    <string name="langarbic">العربية</string>
+    <string name="lanenglish">English</string>
+    <string name="protxt">Try Pro version to customize your Social Touch widget</string>
+    <string name="hpwtocustom">Как создать свой настроенный виджет:</string>
+    <string name="hpwtouse">Как использовать:</string>
+    <string name="hpwtocustom_inst">(1) Перейти в настройки приложения.              п п (2) Нажмите на настраиваемой вкладки.              п п (3) На верхней строке выбрать любую кнопку, чтобы настроить виджет.              п п (4) Затем выберите любое приложение из списка приложений, установленных на вашем телефоне.              п п (5) Повторите уставка 3-4 для всех 6 икон виджета.              п п (6) Нажмите на кнопку Готово.</string>
+    <string name="hpwtouse_inst">(1) К домашний экран                п п (2) Длительное нажатие на пустую область экрана.                п п (3) Выберите виджет                п п (4) Перейдите по списку установленных виджетов и выберите социальной Touch.                п п (5) Нажмите на виджет Социальный сенсорным и вы добавите его в свой домашний экран.                п п (6) Нажмите клавишу Home. Новый виджет должен появиться на главном экране (или обои). Ура ..</string>
+</resources>

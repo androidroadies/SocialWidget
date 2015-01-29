@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">สังคมสัมผัสฟรี</string>
+    <string name="title_activity_main">สังคมสัมผัสฟรี</string>
+    <string name="email">info@bmacinfotech.com</string>
+    <string name="shar">เพื่อนผมพบว่าเครื่องมือที่น่ากลัวสำหรับ Android โทรศัพท์ของฉัน ลองดูที่นี่ http://goo.gl/DQWrkD</string>
+    <string name="thems">ธีมส์</string>
+    <string name="other">ปพลิเคชันอื่น ๆ</string>
+    <string name="about">เกี่ยวกับเรา</string>
+    <string name="feed">ข้อเสนอแนะ</string>
+    <string name="dsmooth">3D Smooth</string>
+    <string name="silver">Silver Coin</string>
+    <string name="sillky">Silky Round</string>
+    <string name="pure">Pure Black</string>
+    <string name="squer">Silky Square</string>
+    <string name="dround">3D Round</string>
+    <string name="hintsub">เรื่อง</string>
+    <string name="hintmsg">ข่าวสาร</string>
+    <string name="more">สำหรับแอพพลิเคมากขึ้น</string>
+    <string name="btnsend">ส่ง</string>
+    <string name="langarbic">العربية</string>
+    <string name="lanenglish">English</string>
+    <string name="protxt">Try Pro version to customize your Social Touch widget</string>
+    <string name="hpwtocustom">วิธีการสร้างเครื่องมือที่กำหนดเองของคุณ:</string>
+    <string name="hpwtouse">วิธีใช้:</string>
+    <string name="hpwtocustom_inst">(1) ไปที่การตั้งค่าแอพพลิเค              n n (2) คลิกที่แท็บที่กำหนด              n n (3) ในแถว TOP เลือกปุ่มใด ๆ ในการปรับแต่งเครื่องมือของคุณ              n n (4) จากนั้นเลือกแอพพลิเคใด ๆ จากรายการของปพลิเคชันที่ติดตั้งในโทรศัพท์ของคุณ              n n (5) ทำซ้ำ Setp 3-4 สำหรับทุก 6 ไอคอนของเครื่องมือของคุณ              n n (6) คลิกที่ปุ่ม DONE</string>
+    <string name="hpwtouse_inst">(1) ไปที่หน้าจอหลัก                n n (2) ลองกดบนพื้นที่ว่างของหน้าจอ                n n (3) เลือกเครื่องมือ                n n (4) ไปผ่านรายการของเครื่องมือที่ติดตั้งและเลือกสัมผัสสังคม                n n (5) คลิกที่วิดเจ็ตสัมผัสทางสังคมและคุณจะเพิ่มไปยังหน้าจอที่บ้านของคุณ                n n (6) กด บ้าน ที่สำคัญเครื่องมือใหม่ควรจะปรากฏบนหน้าจอหลัก (หรือวอลล์เปเปอร์). ไชโย ..</string>
+</resources>

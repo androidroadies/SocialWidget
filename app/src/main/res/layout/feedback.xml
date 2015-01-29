@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_new">
+
+    <include layout="@layout/basexml" />
+
+    <Button
+        android:id="@id/btnSend"
+        android:layout_width="100.0dip"
+        android:layout_height="40.0dip"
+        android:layout_below="@id/relativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/feedbgfrom"
+        android:gravity="center"
+        android:text="@string/btnsend"
+        android:textColor="#ff000000"
+        android:textSize="18.0dip"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@id/relativeLayout1"
+        android:layout_width="280.0dip"
+        android:layout_height="200.0dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61.0dip">
+
+        <EditText
+            android:id="@id/editSub"
+            android:layout_width="wrap_content"
+            android:layout_height="40.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="33.0dip"
+            android:layout_marginTop="20.0dip"
+            android:background="@drawable/feedbgfrom"
+            android:ems="10"
+            android:hint="@string/hintsub"
+            android:padding="5.0dip" />
+
+        <EditText
+            android:id="@id/editDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="100.0dip"
+            android:layout_alignLeft="@id/editSub"
+            android:layout_below="@id/editSub"
+            android:layout_marginTop="20.0dip"
+            android:background="@drawable/feedbgfrom"
+            android:ems="10"
+            android:gravity="top"
+            android:hint="@string/hintmsg"
+            android:inputType="textMultiLine"
+            android:maxLines="5"
+            android:padding="5.0dip" />
+    </RelativeLayout>
+
+</RelativeLayout>

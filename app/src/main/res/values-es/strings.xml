@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Social Touch-FREE</string>
+    <string name="title_activity_main">Social Touch-FREE</string>
+    <string name="email">info@bmacinfotech.com</string>
+    <string name="shar">Amigos encontré tu currículum impresionante para mi teléfono Android. Echa un vistazo aquí http://goo.gl/DQWrkD</string>
+    <string name="thems">Temas</string>
+    <string name="other">Otras aplicaciones</string>
+    <string name="about">¿Quiénes somos?</string>
+    <string name="feed">Feedback</string>
+    <string name="dsmooth">3D Smooth</string>
+    <string name="silver">Silver Coin</string>
+    <string name="sillky">Silky Round</string>
+    <string name="pure">Pure Black</string>
+    <string name="squer">Silky Square</string>
+    <string name="dround">3D Round</string>
+    <string name="hintsub">sujeto</string>
+    <string name="hintmsg">mensaje</string>
+    <string name="more">Para mayor aplicacións</string>
+    <string name="btnsend">ENVIAR</string>
+    <string name="langarbic">العربية</string>
+    <string name="lanenglish">English</string>
+    <string name="protxt">Try Pro version to customize your Social Touch widget</string>
+    <string name="hpwtocustom">Cómo crear tu widget personalizado:</string>
+    <string name="hpwtouse">Modo de empleo:</string>
+    <string name="hpwtocustom_inst">"(1) Vaya a configuración de la aplicación.              
+
+(2) Haga clic en la pestaña Personalizar.              
+
+(3) En la fila superior seleccionar cualquier botón para personalizar el widget.              
+
+(4) A continuación, seleccione cualquier aplicación de la lista de aplicaciones instaladas en el teléfono.              
+
+(5) Repita setp 3-4 para los 6 iconos de tu widget.              
+
+(6) Haga clic en el botón de OK."</string>
+    <string name="hpwtouse_inst">(1) Vaya a la pantalla de inicio                n n (2) Pulsación larga en el área vacía de la pantalla.                n n (3) Seleccione Widget                n n (4) Desplácese por la lista de widgets instalados y seleccione Touch Social.                n n (5) Haga clic en el widget Touch Social y va a agregar a la pantalla principal.                (6) Pulse la tecla Inicio n n. El nuevo widget debe aparecer en la pantalla de inicio (o fondo de pantalla). Saludos ..</string>
+</resources>

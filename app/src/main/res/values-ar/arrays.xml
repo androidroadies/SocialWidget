@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="themas">
+        <item>3D السلس</item>
+        <item>عملة فضية</item>
+        <item>جولة حريري</item>
+        <item>أسود نقي</item>
+        <item>ساحة حريري</item>
+    </string-array>
+    <string-array name="orientation">
+        <item>Horizontal</item>
+        <item>Vertical</item>
+    </string-array>
+</resources>

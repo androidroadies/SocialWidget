@@ -1,8 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">aaa Social Touch</string>
+    <string name="title_activity_main">Social Touch-FREE</string>
+    <string name="email">info@bmacinfotech.com</string>
+    <string name="shar">Friends I found Awesome widget for my Android phone. Take a look here http://goo.gl/DQWrkD</string>
+    <string name="thems">Themes</string>
+    <string name="other">Other Apps</string>
+    <string name="about">About us</string>
+    <string name="feed">Feedback</string>
+    <string name="dsmooth">3D Smooth</string>
+    <string name="silver">Silver Coin</string>
+    <string name="sillky">Silky Round</string>
+    <string name="pure">Pure Black</string>
+    <string name="squer">Silky Square</string>
+    <string name="dround">3D Round</string>
+    <string name="hintsub">Subject</string>
+    <string name="hintmsg">Message</string>
+    <string name="more">For more apps</string>
+    <string name="btnsend">SEND</string>
+    <string name="langarbic">العربية</string>
+    <string name="lanenglish">English</string>
+    <string name="protxt">Try Pro version to customize your Social Touch widget</string>
+    <string name="hpwtocustom">How to create your customized widget:</string>
+    <string name="hpwtouse">How to use:</string>
+    <string name="emailbodymsg">I found a great social widget app...</string>
+    <string name="shareBody">\n https://play.google.com/store/apps/details?id=com.multidots.OOs</string>
+    <string name="socialWidgetApp">\n https://play.google.com/store/apps/details?id=com.multidots.OOs</string>
+    <string name="hpwtocustom_inst">"(1) Go to app setting. 
 
-    <string name="app_name">SocialWidget</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+(2) Click on Custom Tab. 
 
+(3) On TOP row choose any button to customize your widget. 
+
+(4) Then select any app from list of apps installed on your phone. 
+
+(5) Repeat setp 3-4 for all 6 icons of your widget. 
+
+(6) Click on DONE button."</string>
+    <string name="hpwtouse_inst">"(1) Go to home screen 
+
+(2) Long press on empty area of screen. 
+
+(3) Select Widget 
+
+(4) Navigate through the list of installed widgets and select Social Touch. 
+
+(5) Click on the Social Touch widget and you will add it to your home screen. 
+
+(6) Press the “Home” key. The new widget should appear on the home screen (or wallpaper).Cheers.."</string>
 </resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Social Touch-FREE</string>
+    <string name="title_activity_main">Social Touch-FREE</string>
+    <string name="email">info@bmacinfotech.com</string>
+    <string name="shar">أصدقاء لقد وجدت القطعة ممتاز للهاتف أندرويد الخاص بي. نلقي نظرة هنا. http://goo.gl/BeFRW</string>
+    <string name="thems">المواضيع</string>
+    <string name="other">تطبيقات أخرى</string>
+    <string name="about">من نحن</string>
+    <string name="feed">ردود الفعل</string>
+    <string name="dsmooth">3D السلس</string>
+    <string name="silver">عملة فضية</string>
+    <string name="sillky">جولة حريري</string>
+    <string name="pure">أسود نقي</string>
+    <string name="squer">ساحة حريري</string>
+    <string name="dround">3D جولة</string>
+    <string name="hintsub">موضوع</string>
+    <string name="hintmsg">رسالة</string>
+    <string name="more">لمزيد من التطبيقات</string>
+    <string name="btnsend">أرسل</string>
+</resources>

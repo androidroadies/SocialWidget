@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">社會觸摸免費</string>
+    <string name="title_activity_main">社會觸摸免費</string>
+    <string name="email">info@bmacinfotech.com</string>
+    <string name="shar">朋友們，我發現真棒部件我的Android手機。看看這裡 http://goo.gl/DQWrkD</string>
+    <string name="thems">主題</string>
+    <string name="other">其他應用程序</string>
+    <string name="about">關於我們</string>
+    <string name="feed">反饋</string>
+    <string name="dsmooth">3D Smooth</string>
+    <string name="silver">Silver Coin</string>
+    <string name="sillky">Silky Round</string>
+    <string name="pure">Pure Black</string>
+    <string name="squer">Silky Square</string>
+    <string name="dround">3D Round</string>
+    <string name="hintsub">主題</string>
+    <string name="hintmsg">信息</string>
+    <string name="more">對於更多的應用程序</string>
+    <string name="btnsend">發送</string>
+    <string name="langarbic">العربية</string>
+    <string name="lanenglish">English</string>
+    <string name="protxt">Try Pro version to customize your Social Touch widget</string>
+    <string name="hpwtocustom">如何創建自定義窗口小部件：</string>
+    <string name="hpwtouse">如何使用：</string>
+    <string name="hpwtocustom_inst">（1）進入應用程序設置。             n n已（2）點擊自定義選項卡。             n n已（3）在頂行選擇任意按鈕可以自定義你的widget。             n n已（4）然後從手機上安裝的應用程序列表中選擇任何應用程序。             n n已（5）重複清淅3-4的小部件的所有6個圖標。             n n已（6）點擊完成按鈕。</string>
+    <string name="hpwtouse_inst">（1）轉到主屏幕               n n已（2）長按屏幕上的空白區域。               n n已（3）選擇小工具               n n已（4）導航通過安裝部件的列表，並選擇社會接觸。               n n已（5）按一下社會的觸摸控件，你將它添加到您的主屏幕。               n n已（6）按“Home”鍵。新的部件應該出現在主屏幕（或壁紙）上。乾杯..</string>
+</resources>

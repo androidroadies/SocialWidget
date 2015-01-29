@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tabbg"
+        android:weightSum="1.0">
+
+        <LinearLayout
+            android:id="@id/linerthemas"
+            android:layout_width="0.0dip"
+            android:layout_height="60.0dip"
+            android:layout_weight="0.25"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="1.0">
+
+            <Button
+                android:id="@id/btnThemas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4.0dip"
+                android:layout_weight="0.7"
+                android:background="@drawable/tabicon"
+                android:clickable="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:clickable="false"
+                android:singleLine="true"
+                android:text="@string/thems"
+                android:textColor="#ffffffff"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/linerOtherapp"
+            android:layout_width="0.0dip"
+            android:layout_height="60.0dip"
+            android:layout_weight="0.25"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="1.0">
+
+            <Button
+                android:id="@id/btnOtherapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4.0dip"
+                android:layout_weight="0.7"
+                android:background="@drawable/tabicon"
+                android:clickable="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:clickable="false"
+                android:singleLine="true"
+                android:text="@string/other"
+                android:textColor="#ffffffff"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/linerNotification"
+            android:layout_width="0.0dip"
+            android:layout_height="60.0dip"
+            android:layout_weight="0.25"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="1.0">
+
+            <Button
+                android:id="@id/btnNotification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4.0dip"
+                android:layout_weight="0.7"
+                android:background="@drawable/tabicon"
+                android:clickable="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:clickable="false"
+                android:singleLine="true"
+                android:text="Help"
+                android:textColor="#ffffffff"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/linerFeedback"
+            android:layout_width="0.0dip"
+            android:layout_height="60.0dip"
+            android:layout_weight="0.25"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="1.0">
+
+            <Button
+                android:id="@id/btnFeedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4.0dip"
+                android:layout_weight="0.7"
+                android:background="@drawable/tabicon"
+                android:clickable="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:clickable="false"
+                android:singleLine="true"
+                android:text="@string/feed"
+                android:textColor="#ffffffff"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linearLayout1"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/sharbtnc" />
+
+    <!-- <com.google.ads.AdView
+        android:id="@id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="a1519b74cb47953"
+        ads:loadAdOnCreate="true" /> -->
+
+    <TextView
+        android:id="@id/txtmoreApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/btnShare"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="2.0dip"
+        android:layout_marginTop="4.0dip"
+        android:gravity="center"
+        android:paddingLeft="6.0dip"
+        android:paddingRight="2.0dip"
+        android:shadowColor="#ffd5a80d"
+        android:shadowDx="2.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="3.0"
+        android:text="@string/more"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ffffffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>

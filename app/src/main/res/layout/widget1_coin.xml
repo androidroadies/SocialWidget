@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300.0dip"
+    android:layout_height="60.0dip"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@id/widgetliner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@id/f"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_margin="1.0dip"
+            android:background="@drawable/btn_fb_coin" />
+
+        <Button
+            android:id="@id/yt"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_margin="1.0dip"
+            android:background="@drawable/btn_yt_coin" />
+
+        <Button
+            android:id="@id/twitter"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_margin="1.0dip"
+            android:background="@drawable/btn_whatsapp_coin" />
+
+        <Button
+            android:id="@id/twit"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_margin="1.0dip"
+            android:background="@drawable/btn_twit_coin" />
+
+        <Button
+            android:id="@id/sky"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_margin="1.0dip"
+            android:background="@drawable/btn_skype_coin" />
+
+        <Button
+            android:id="@id/gtalk"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_margin="1.0dip"
+            android:background="@drawable/btn_gtalk_coin" />
+
+        <Button
+            android:id="@id/setting"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_margin="1.0dip"
+            android:background="@drawable/btn_setting_coin" />
+    </LinearLayout>
+</LinearLayout>

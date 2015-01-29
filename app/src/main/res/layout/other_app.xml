@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rladdverties"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_hd_widescreen_background">
+
+    <LinearLayout
+        android:id="@+id/llMainContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_Title1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_check1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/autometer"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/btn_download1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/download"
+                android:padding="5dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_amd_city1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toLeftOf="@+id/btn_download1"
+                android:layout_toRightOf="@+id/iv_check1"
+                android:text="Autometer"
+                android:textColor="#ffffff"
+                android:textSize="18.0dip" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/separtorDetailScreenEventNameView1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/rl_Title1"
+            android:background="#005900" />
+
+        <RelativeLayout
+            android:id="@+id/rl_Title2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_check2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ama"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/btn_download2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/download"
+                android:padding="5dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_amd_city2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toLeftOf="@+id/btn_download2"
+                android:layout_toRightOf="@+id/iv_check2"
+                android:text="AMA Events Ahmedabad"
+                android:textColor="#ffffff"
+                android:textSize="18.0dip" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/separtorDetailScreenEventNameView2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/rl_Title2"
+            android:background="#005900" />
+
+        <RelativeLayout
+            android:id="@+id/rl_Title3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_check3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/adani"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/btn_download3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/download"
+                android:padding="5dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_amd_city3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toLeftOf="@+id/btn_download3"
+                android:layout_toRightOf="@+id/iv_check3"
+                android:text="Adani Gas Calculator"
+                android:textColor="#ffffff"
+                android:textSize="18.0dip" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/separtorDetailScreenEventNameView3"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/rl_Title3"
+            android:background="#005900" />
+
+        <RelativeLayout
+            android:id="@+id/rl_Title4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_check4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/tictac"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/btn_download4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/download"
+                android:padding="5dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_amd_city4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toLeftOf="@+id/btn_download4"
+                android:layout_toRightOf="@+id/iv_check4"
+                android:text="00s: Tic Tac Toe+"
+                android:textColor="#ffffff"
+                android:textSize="18.0dip" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/separtorDetailScreenEventNameView4"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/rl_Title4"
+            android:background="#005900" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/share" />
+
+</RelativeLayout>

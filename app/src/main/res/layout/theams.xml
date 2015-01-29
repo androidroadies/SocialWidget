@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_new">
+
+    <include layout="@layout/basexml" />
+
+    <Spinner
+        android:id="@id/spinnerView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginTop="58.0dip"
+        android:entries="@array/orientation" />
+
+    <Spinner
+        android:id="@id/spinnerThemas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginTop="59.0dip"
+        android:entries="@array/themas" />
+
+    <TextView
+        android:id="@id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/spinnerThemas"
+        android:layout_below="@id/spinnerView"
+        android:layout_marginTop="33.0dip"
+        android:text="Select Themas"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ffffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/spinnerView"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32.0dip"
+        android:text="Select View"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ffffffff"
+        android:textStyle="bold" />
+</RelativeLayout>

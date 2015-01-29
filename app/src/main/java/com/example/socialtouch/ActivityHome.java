@@ -1,39 +1,83 @@
 package com.example.socialtouch;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.TabActivity;
+import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.widget.TabHost;
+import android.widget.TabHost.TabSpec;
 
+import com.example.socialwidget.R;
 
-public class ActivityHome extends ActionBarActivity {
+@SuppressWarnings("deprecation")
+public class ActivityHome extends TabActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        init();
+
     }
 
+    private void init() {
+        // TODO Auto-generated method stub
+        @SuppressWarnings("unused")
+        Resources ressources = getResources();
+        final TabHost tabHost = getTabHost();
+//		tabHost.setBackgroundColor(Color.RED);
+        Intent tabOtherActTab = new Intent().setClass(this,
+                OtherAppAct.class);
+        TabSpec tabOtherAct = tabHost.newTabSpec("OtherAppAct")
+                .setIndicator("OtherApp", ressources.getDrawable(R.drawable.other_appss))
+                .setContent(tabOtherActTab);
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_activity_home, menu);
-        return true;
-    }
+        Intent tabHelpActTab = new Intent().setClass(this,
+                HelpAct.class);
+        TabSpec tabHelpAct = tabHost.newTabSpec("HelpAct")
+                .setIndicator("Help", ressources.getDrawable(R.drawable.help))
+                .setContent(tabHelpActTab);
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+//		Intent tabAboutUsActTab = new Intent().setClass(this,
+//				AboutUsAct.class);
+//		TabSpec tabAboutUsAct = tabHost.newTabSpec("AboutUsAct")
+//				.setIndicator("AboutUs")// ressources.getDrawable(R.drawable.android_dark))
+//				.setContent(tabAboutUsActTab);
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+//		Intent tabShareActTab = new Intent().setClass(this,
+//				ShareAct.class);
+//		TabSpec tabShareAct = tabHost.newTabSpec("ShareAct")
+//				.setIndicator("Share")// ressources.getDrawable(R.drawable.android_dark))
+//				.setContent(tabShareActTab);
 
-        return super.onOptionsItemSelected(item);
+        Intent tabFeedBackActTab = new Intent().setClass(this,
+                FeedBackAct.class);
+        TabSpec tabFeedBackAct = tabHost.newTabSpec("FeedBackAct")
+                .setIndicator("Feedback", ressources.getDrawable(R.drawable.feed_back))
+                .setContent(tabFeedBackActTab);
+
+
+//		tabHost.setOnTabChangedListener(new OnTabChangeListener() {
+//
+//	        @SuppressLint("ResourceAsColor")
+//			public void onTabChanged(String arg0) {
+//	            for (int i = 0; i < tabHost.getTabWidget().getChildCount(); i++) {
+//	            	tabHost.getTabWidget().getChildAt(i)
+//	                        .setBackgroundColor(Color.BLUE);// unselected
+//	            }
+//	            tabHost.getTabWidget().getChildAt(tabHost.getCurrentTab())
+//	                    .setBackgroundColor(Color.RED); // selected
+//
+//	        }
+//	    });
+
+        tabHost.addTab(tabHelpAct);
+        tabHost.addTab(tabOtherAct);
+//		tabHost.addTab(tabAboutUsAct);
+        tabHost.addTab(tabFeedBackAct);
+
+
+        tabHost.setCurrentTab(0);
     }
 }

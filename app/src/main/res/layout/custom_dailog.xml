@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/mydialogstyle"
+    android:layout_width="280.0dip"
+    android:layout_height="300.0dip">
+
+    <TextView
+        android:id="@id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/btnlater"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@id/btnnow"
+        android:layout_marginTop="40.0dip"
+        android:shadowColor="#ff000000"
+        android:shadowDx="2.0"
+        android:shadowDy="2.0"
+        android:shadowRadius="2.0"
+        android:text="@string/protxt"
+        android:textColor="#ffffffff"
+        android:textSize="24.0dip"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@id/btnlater"
+        android:layout_width="100.0dip"
+        android:layout_height="50.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/textView1"
+        android:layout_marginLeft="22.0dip"
+        android:layout_marginTop="63.0dip"
+        android:background="@drawable/feedbg"
+        android:shadowColor="#ff000000"
+        android:shadowDx="2.0"
+        android:shadowDy="2.0"
+        android:shadowRadius="2.0"
+        android:text="Later"
+        android:textColor="#ffffffff"
+        android:textSize="18.0dip"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@id/btnnow"
+        android:layout_width="100.0dip"
+        android:layout_height="50.0dip"
+        android:layout_alignBaseline="@id/btnlater"
+        android:layout_alignBottom="@id/btnlater"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="29.0dip"
+        android:background="@drawable/feedbg"
+        android:shadowColor="#ff000000"
+        android:shadowDx="2.0"
+        android:shadowDy="2.0"
+        android:shadowRadius="2.0"
+        android:text="Try now"
+        android:textColor="#ffffffff"
+        android:textSize="18.0dip"
+        android:textStyle="bold" />
+</RelativeLayout>

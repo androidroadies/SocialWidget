@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">सामाजिक टच आज़ाद</string>
+    <string name="title_activity_main">सामाजिक टच आज़ाद</string>
+    <string name="email">info@bmacinfotech.com</string>
+    <string name="shar">दोस्तों मैं अपने एंड्रॉयड फोन के लिए बहुत बढ़िया विजेट पाया. यहाँ एक नज़र रखना http://goo.gl/DQWrkD</string>
+    <string name="thems">थीम्स</string>
+    <string name="other">अन्य क्षुधा</string>
+    <string name="about">हमारे बारे में</string>
+    <string name="feed">प्रतिपुष्टि</string>
+    <string name="dsmooth">3D Smooth</string>
+    <string name="silver">Silver Coin</string>
+    <string name="sillky">Silky Round</string>
+    <string name="pure">Pure Black</string>
+    <string name="squer">Silky Square</string>
+    <string name="dround">3D Round</string>
+    <string name="hintsub">विषय</string>
+    <string name="hintmsg">संदेश</string>
+    <string name="more">अधिक क्षुधा के लिए</string>
+    <string name="btnsend">भेजें</string>
+    <string name="langarbic">العربية</string>
+    <string name="lanenglish">English</string>
+    <string name="protxt">Try Pro version to customize your Social Touch widget</string>
+    <string name="hpwtocustom">अपना यंत्र बनाने के लिए कैसे:</string>
+    <string name="hpwtouse">कैसे उपयोग करने के लिए:</string>
+    <string name="hpwtocustom_inst">(1) एप्लिकेशन सेटिंग पर जाएं.              n n (2) कस्टम टैब पर क्लिक करें.              n n (3) शीर्ष पंक्ति पर अपने विजेट को अनुकूलित करने के लिए कोई बटन का चयन करें.              n n (4) फिर अपने फोन पर स्थापित क्षुधा की सूची में से किसी भी अनुप्रयोग का चयन करें.              n n (5) अपने विजेट के सभी 6 माउस के लिए 3-4 setp दोहराएँ.              n n (6) किया बटन पर क्लिक करें.</string>
+    <string name="hpwtouse_inst">(1) घर स्क्रीन करने के लिए जाओ                स्क्रीन के खाली क्षेत्र पर n n (2) लंबी प्रेस.                n n (3) चुनिये                n n (4) स्थापित विगेट्स की सूची के माध्यम से नेविगेट और सामाजिक टच का चयन करें.                n n (5) सामाजिक टच विजेट पर क्लिक करें और आप अपने घर स्क्रीन में जोड़ना होगा.                n n (6) प्रेस घर कुंजी. नया विजेट होम स्क्रीन (या वॉलपेपर) पर दिखाई देनी चाहिए. चीयर्स ..</string>
+</resources>

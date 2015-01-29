@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Social Touch-ÜCRETSİZ</string>
+    <string name="title_activity_main">Social Touch-ÜCRETSİZ</string>
+    <string name="email">info@bmacinfotech.com</string>
+    <string name="shar">Arkadaşlar benim Android telefonu için harika Widget bulundu. Buraya bir göz atın http://goo.gl/DQWrkD</string>
+    <string name="thems">Temalar</string>
+    <string name="other">diğer uygulamalar</string>
+    <string name="about">Hakkımızda</string>
+    <string name="feed">geribesleme</string>
+    <string name="dsmooth">3D Smooth</string>
+    <string name="silver">Silver Coin</string>
+    <string name="sillky">Silky Round</string>
+    <string name="pure">Pure Black</string>
+    <string name="squer">Silky Square</string>
+    <string name="dround">3D Round</string>
+    <string name="hintsub">konu</string>
+    <string name="hintmsg">mesaj</string>
+    <string name="more">Daha fazla uygulamalar için</string>
+    <string name="btnsend">GÖNDER</string>
+    <string name="langarbic">العربية</string>
+    <string name="lanenglish">English</string>
+    <string name="protxt">Try Pro version to customize your Social Touch widget</string>
+    <string name="hpwtocustom">Nasıl özelleştirilmiş Widget oluşturmak için:</string>
+    <string name="hpwtouse">Nasıl kullanılır:</string>
+    <string name="hpwtocustom_inst">(1) app ayarına gidin.              n n (2) Özel Tab tıklayın.              n n (3) TOP satırda On Widget özelleştirmek için herhangi bir düğmeye seçin.              n n (4) Daha sonra telefonunuza yüklenen uygulamalar listeden herhangi bir uygulamayı seçin.              n n (5) Widget ınızın 6 simgeleri için 3-4 set değeri tekrarlayın.              n n (6) YAPILDI butonuna tıklayın.</string>
+    <string name="hpwtouse_inst">(1) Ana ekrana gidin                Ekranın boş bir alana n n (2) Uzun süreli basın.                n n (3) Widget seçin                n n (4) yüklü widget listede gezinin ve Sosyal dokunun seçeneğini seçin.                n n (5) Sosyal dokunun widget tıklayın ve ana ekrana eklemek olacaktır.                n n (6) basın Home tuşuna basın.Yeni widget ev ekranı (veya duvar kağıdı) görünmelidir. Cheers ..</string>
+</resources>

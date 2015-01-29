@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300.0dip"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/widgetliner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/facebook"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_margin="1.0dip"
+            android:background="@drawable/btn_facebook" />
+
+        <Button
+            android:id="@+id/wechat"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_margin="1.0dip"
+            android:layout_toRightOf="@+id/facebook"
+            android:background="@drawable/btn_wechat" />
+
+        <Button
+            android:id="@+id/whatsapp"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_margin="1.0dip"
+            android:layout_toRightOf="@+id/wechat"
+            android:background="@drawable/btn_what" />
+
+        <Button
+            android:id="@+id/instagram"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="1.0dip"
+            android:layout_toRightOf="@+id/whatsapp"
+            android:background="@drawable/btn_instagram" />
+
+        <Button
+            android:id="@+id/hike"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_margin="1.0dip"
+            android:layout_toRightOf="@+id/instagram"
+            android:background="@drawable/btn_hike" />
+
+        <Button
+            android:id="@+id/twit"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_below="@+id/facebook"
+            android:layout_margin="1.0dip"
+            android:background="@drawable/btn_twitter" />
+
+        <Button
+            android:id="@+id/skyp"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_below="@+id/wechat"
+            android:layout_margin="1.0dip"
+            android:layout_toRightOf="@+id/twit"
+            android:background="@drawable/btn_skyp" />
+
+        <Button
+            android:id="@+id/gtalk"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_below="@+id/whatsapp"
+            android:layout_margin="1.0dip"
+            android:layout_toRightOf="@+id/skyp"
+            android:background="@drawable/btn_gplus" />
+
+        <Button
+            android:id="@+id/line"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_below="@+id/instagram"
+            android:layout_margin="1.0dip"
+            android:layout_toRightOf="@+id/gtalk"
+            android:background="@drawable/btn_line" />
+
+        <Button
+            android:id="@+id/viber"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_below="@+id/instagram"
+            android:layout_margin="1.0dip"
+            android:layout_toRightOf="@+id/line"
+            android:background="@drawable/btn_viber" />
+    </RelativeLayout>
+
+</LinearLayout>
