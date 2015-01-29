@@ -1,6 +1,5 @@
 package com.example.socialtouch;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -16,7 +15,7 @@ import android.widget.Toast;
 
 import com.example.socialwidget.R;
 
-public class FeedBackAct extends Activity {
+public class FeedBackAct extends BaseActivity {
     String shareBody, socialWidgetApp, subject;
     EditText etSubject, emailBody;
     Button send, clear;
@@ -115,5 +114,12 @@ public class FeedBackAct extends Activity {
             Toast.makeText(getApplicationContext(), "Please Enter subject.",
                     Toast.LENGTH_LONG).show();
         }
+    }
+
+
+    @Override
+    public void onBackPressed() {
+        loadInterstitial(null);
+        super.onBackPressed();
     }
 }

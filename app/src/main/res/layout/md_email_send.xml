@@ -15,6 +15,7 @@
             android:id="@+id/img_logo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:contentDescription="@string/app_name"
             android:src="@drawable/multidots_1" />
 
@@ -110,8 +111,9 @@
         android:id="@+id/ivShare"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/llAd"
         android:layout_alignParentRight="true"
         android:src="@drawable/share" />
 
+    <include layout="@layout/mergelayout" />
 </RelativeLayout>

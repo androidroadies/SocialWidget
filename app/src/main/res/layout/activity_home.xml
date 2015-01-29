@@ -9,11 +9,14 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
 
+        <include layout="@layout/mergelayout" />
+
+
         <TabWidget
             android:id="@android:id/tabs"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true" />
+            android:layout_above="@+id/llAd" />
 
         <FrameLayout
             android:id="@android:id/tabcontent"

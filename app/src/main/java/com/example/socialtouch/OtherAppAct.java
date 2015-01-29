@@ -1,6 +1,5 @@
 package com.example.socialtouch;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -10,7 +9,7 @@ import android.widget.ImageView;
 
 import com.example.socialwidget.R;
 
-public class OtherAppAct extends Activity {
+public class OtherAppAct extends BaseActivity {
     ImageView btnAutometer, btnAma, btnAdani, btnTictac;
     String autometer = "https://play.google.com/store/apps/details?id=com.multidots.ahmedabadautometer";
     String adani = "https://play.google.com/store/apps/details?id=com.multidots.adanigasmeter";
@@ -93,5 +92,12 @@ public class OtherAppAct extends Activity {
                 startActivity(browserIntent);
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+        loadInterstitial(null);
+        super.onBackPressed();
+
     }
 }

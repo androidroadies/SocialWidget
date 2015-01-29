@@ -1,6 +1,5 @@
 package com.example.socialtouch;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,7 +8,7 @@ import android.widget.ImageView;
 
 import com.example.socialwidget.R;
 
-public class HelpAct extends Activity {
+public class HelpAct extends BaseActivity {
     ImageView imgShare;
     String shareBody, socialWidgetApp, subject;
 
@@ -44,5 +43,11 @@ public class HelpAct extends Activity {
             }
         });
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        loadInterstitial(null);
+        super.onBackPressed();
     }
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">aaa Social Touch</string>
+    <string name="app_name">Social Touch</string>
     <string name="title_activity_main">Social Touch-FREE</string>
     <string name="email">info@bmacinfotech.com</string>
     <string name="shar">Friends I found Awesome widget for my Android phone. Take a look here http://goo.gl/DQWrkD</string>
@@ -48,4 +48,8 @@
 (5) Click on the Social Touch widget and you will add it to your home screen. 
 
 (6) Press the “Home” key. The new widget should appear on the home screen (or wallpaper).Cheers.."</string>
+
+
+    <string name="interstitial_ad_unit_id">ca-app-pub-2297447248800559/3090300428</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2297447248800559/4455103626</string>
 </resources>

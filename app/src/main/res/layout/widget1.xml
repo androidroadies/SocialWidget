@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="300.0dip"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:gravity="center">
 
@@ -11,87 +11,87 @@
 
         <Button
             android:id="@+id/facebook"
-            android:layout_width="40.0dip"
-            android:layout_height="40.0dip"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
             android:layout_margin="1.0dip"
-            android:background="@drawable/btn_facebook" />
+            android:background="@drawable/fbicon" />
 
         <Button
             android:id="@+id/wechat"
-            android:layout_width="40.0dip"
-            android:layout_height="40.0dip"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
             android:layout_margin="1.0dip"
             android:layout_toRightOf="@+id/facebook"
-            android:background="@drawable/btn_wechat" />
+            android:background="@drawable/wechaticon" />
 
         <Button
             android:id="@+id/whatsapp"
-            android:layout_width="40.0dip"
-            android:layout_height="40.0dip"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
             android:layout_margin="1.0dip"
             android:layout_toRightOf="@+id/wechat"
-            android:background="@drawable/btn_what" />
+            android:background="@drawable/whatsappicon" />
 
         <Button
             android:id="@+id/instagram"
-            android:layout_width="40.0dip"
-            android:layout_height="40.0dip"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
             android:layout_centerHorizontal="true"
             android:layout_margin="1.0dip"
             android:layout_toRightOf="@+id/whatsapp"
-            android:background="@drawable/btn_instagram" />
+            android:background="@drawable/instaicon" />
 
         <Button
             android:id="@+id/hike"
-            android:layout_width="40.0dip"
-            android:layout_height="40.0dip"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
             android:layout_margin="1.0dip"
             android:layout_toRightOf="@+id/instagram"
-            android:background="@drawable/btn_hike" />
+            android:background="@drawable/hikeicon" />
 
         <Button
             android:id="@+id/twit"
-            android:layout_width="40.0dip"
-            android:layout_height="40.0dip"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
             android:layout_below="@+id/facebook"
             android:layout_margin="1.0dip"
-            android:background="@drawable/btn_twitter" />
+            android:background="@drawable/tweeticon" />
 
         <Button
             android:id="@+id/skyp"
-            android:layout_width="40.0dip"
-            android:layout_height="40.0dip"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
             android:layout_below="@+id/wechat"
             android:layout_margin="1.0dip"
             android:layout_toRightOf="@+id/twit"
-            android:background="@drawable/btn_skyp" />
+            android:background="@drawable/skypeicon" />
 
         <Button
             android:id="@+id/gtalk"
-            android:layout_width="40.0dip"
-            android:layout_height="40.0dip"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
             android:layout_below="@+id/whatsapp"
             android:layout_margin="1.0dip"
             android:layout_toRightOf="@+id/skyp"
-            android:background="@drawable/btn_gplus" />
+            android:background="@drawable/gplusicon" />
 
         <Button
             android:id="@+id/line"
-            android:layout_width="40.0dip"
-            android:layout_height="40.0dip"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
             android:layout_below="@+id/instagram"
             android:layout_margin="1.0dip"
             android:layout_toRightOf="@+id/gtalk"
-            android:background="@drawable/btn_line" />
+            android:background="@drawable/lineicon" />
 
         <Button
             android:id="@+id/viber"
-            android:layout_width="40.0dip"
-            android:layout_height="40.0dip"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
             android:layout_below="@+id/instagram"
             android:layout_margin="1.0dip"
             android:layout_toRightOf="@+id/line"
-            android:background="@drawable/btn_viber" />
+            android:background="@drawable/vibericon" />
     </RelativeLayout>
 
 </LinearLayout>
